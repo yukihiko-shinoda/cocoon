@@ -7,7 +7,7 @@
  */
 
 //外部のphpからWordPress のAPIを扱う
-require_once('../../../../../wp-load.php');
+require_once ABSPATH . '../../../../../../../wp/wp-load.php';
 require_once('../_defins.php');
 //管理者権限を持っているログインユーザーかどうか
 if (is_user_administrator()) {
